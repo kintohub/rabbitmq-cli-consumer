@@ -101,7 +101,9 @@ func (c *Consumer) consume(msgs <-chan amqp.Delivery, done chan error) {
 			done <- err
 			return
 		}
-	}
+		c.Channel.Close()
+		c.Connection.Close()
+    }
 	done <- nil
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/corvus-ch/rabbitmq-cli-consumer/acknowledger"
 	"github.com/corvus-ch/rabbitmq-cli-consumer/command"
 	"github.com/corvus-ch/rabbitmq-cli-consumer/config"
-	"github.com/corvus-ch/rabbitmq-cli-consumer/consumer"
+	"github.com/kintohub/rabbitmq-cli-consumer/consumer"
 	"github.com/corvus-ch/rabbitmq-cli-consumer/log"
 	"github.com/corvus-ch/rabbitmq-cli-consumer/processor"
 	"github.com/thockin/logr"
